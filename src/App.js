@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 import Header from '../src/Header.js';
 import Home from '../src/navComponents/Home.js';
-import AboutMe from '../src/navComponents/AboutMe.js';
 import ConnectWithMe from '../src/navComponents/ConnectWithMe.js';
 import TheCode from '../src/navComponents/TheCode.js';
 import Resume from '../src/navComponents/Resume.js';
@@ -21,7 +20,6 @@ export default class App extends Component {
           <Header />
           <Switch>
             <Route path="/" exact component = { Home } />
-            <Route path="/aboutme" exact component={ AboutMe } />
             <Route path="/connect" exact component={ ConnectWithMe } />
             <Route path="/thecode" exact component={TheCode} />
             <Route path="/resume" exact component={Resume} />

@@ -8,7 +8,6 @@ export default class Header extends Component {
                 Header
                 <Route>
                     <NavLink to='/'>Home</NavLink>
-                    <NavLink to='/aboutme'>About Me</NavLink>
                     <NavLink to='/thecode'>The Code</NavLink>
                     <NavLink to='/connect'>Connect With Me</NavLink>
                     <NavLink to='/resume'>Resume</NavLink>
