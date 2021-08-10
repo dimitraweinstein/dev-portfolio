@@ -1,7 +1,7 @@
-.App {
+/* .App {
   text-align: center;
-}
-
+} */
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,11 +11,11 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .header-div {
   background-color: white;
-  border: solid 3px #282c34;
+  border: solid 3px red;
   min-height: 10vh;
   display: flex;
   flex-direction: row;
@@ -25,7 +25,20 @@
   color: red;
 }
 
-.App-link {
+.bio-pic {
+  border: solid 3px yellow;
+height: 700px;
+}
+
+main {
+  border: solid 4px blue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+/* .App-link {
   color: #61dafb;
 }
 
@@ -36,4 +49,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
