@@ -15,7 +15,7 @@
 
 .header-div {
   background-color: white;
-  border: solid 3px #282c34;
+  border: solid 3px red;
   min-height: 10vh;
   display: flex;
   flex-direction: row;
@@ -26,13 +26,17 @@
 }
 
 .bio-pic {
+  border: solid 3px yellow;
 height: 700px;
 }
 
 main {
+  border: solid 4px blue;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
+
 
 /* .App-link {
   color: #61dafb;
