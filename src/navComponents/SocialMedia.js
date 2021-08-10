@@ -4,16 +4,29 @@ export default class SocialMedia extends Component {
     render() {
         return (
             <div>
-                Link to LinkedIn
-                
-                Social Media Landing Page!
-
-                Link To Blog
-
-                Link To IG
-
-                Link To Twitter
-
+                <h3>Social Media</h3>
+                <div>
+                    <div>
+                        <a href = "https://www.linkedin.com/in/dimitraweinstein/">
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href = "http://dubscode2life.blog/">
+                            <span>Blog</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href = "https://www.instagram.com/dubscode2life/">
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href = "https://twitter.com/DubsCodes">
+                            <span>Follow me @DubsCodes!</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         )
     }
