@@ -1,7 +1,7 @@
-.App {
+/* .App {
   text-align: center;
-}
-
+} */
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,7 +11,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .header-div {
   background-color: white;
@@ -25,7 +25,16 @@
   color: red;
 }
 
-.App-link {
+.bio-pic {
+height: 700px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .App-link {
   color: #61dafb;
 }
 
@@ -36,4 +45,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
