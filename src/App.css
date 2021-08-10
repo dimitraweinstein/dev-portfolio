@@ -1,17 +1,8 @@
-/* .App {
-  text-align: center;
-} */
-/* 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}  */
 
 .header-div {
   background-color: white;
@@ -19,15 +10,44 @@
   min-height: 10vh;
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-evenly;
   font-size: 1.15rem;
   color: red;
 }
 
 .bio-pic {
-  border: solid 3px yellow;
-height: 700px;
+border: solid 3px yellow;
+height: 650px;
+margin: 10px;
+display: flex;
+align-items: flex-start;
+}
+
+.header-logo {
+  height: 20vh;
+  justify-content: flex-start;
+}
+
+.bio-text {
+  border: solid purple 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dev-logo {
+  border: 8px green solid;
+  height: 450px;
+  width: auto;
+  /* margin: 10px; */
+}
+
+p {
+  margin: 10px;
+  font-family: Modern Sans;
+  font-size: 20px;
+  width: 75vh;
 }
 
 main {
@@ -35,18 +55,14 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+  margin: 10px;
 }
 
-
-/* .App-link {
-  color: #61dafb;
+.p-div {
+  border: orange solid 5px;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
