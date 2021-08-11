@@ -1,0 +1,12 @@
+.mobile{
+    width: 320px;
+    height: 80px;
+    margin: 0% auto;
+    border-radius: 50% 8;
+    background: #e4dcf2;
+    /* box-shadow: 15px 15px 0 0 #e4dcf2; */
+    /* border: solid 2px black */
+}
+.tablet-mobile p {
+    padding-top: 2%;
+}
