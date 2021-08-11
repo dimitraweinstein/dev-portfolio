@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import profileImage from '../images/Profile_Image.jpeg';
-import devLogo from '../images/Dev Logo 5.png';
+import profileImage from '../../images/Profile_Image.jpeg';
+import devLogo from '../../images/Dev Logo 5.png';
 
 export default class Home extends Component {
     render() {
