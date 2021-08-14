@@ -51,7 +51,7 @@ export default function App () {
       <div >
 
         { isMobileOrTablet && <MobileOrTablet> <AppRouter /> </MobileOrTablet> }
-        { isPortrait ? 'portrait' : 'landscape' }
+        { isPortrait }
         { isDesktopOrLaptop && <LaptopOrDesktop> <AppRouter/> </LaptopOrDesktop> }
         { isRetina }
         
