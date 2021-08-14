@@ -1,12 +1,116 @@
 .mobile{
-    width: 320px;
-    height: 80px;
+    width: 420px;
     margin: 0% auto;
-    border-radius: 50% 8;
-    background: #e4dcf2;
-    /* box-shadow: 15px 15px 0 0 #e4dcf2; */
-    /* border: solid 2px black */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
-.tablet-mobile p {
-    padding-top: 2%;
+
+.header-div {
+  background-color: white;
+  border: solid 3px red;
+  min-height: 10vh;
+  width: 420px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /* flex-direction: row; */
+  /* align-items: center; */
+  /* justify-content: space-evenly; */
+  font-size: .5em;
+  color: red;
+}
+
+.bio-pic {
+/* border: solid 3px yellow; */
+height: 220px;
+width: 175px;
+margin: 5px;
+margin-top: 30px;
+display: flex;
+}
+
+.header-logo {
+  /* border: solid chartreuse 3px; */
+  max-height: 30vh;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.bio-text {
+  border: solid purple 5px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+p {
+  margin: 10px;
+  font-family: Modern Sans;
+  font-size: 20px;
+  width: auto;
+}
+
+main {
+  /* border: solid 3px blue; */
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 420px;
+}
+
+.p-div {
+  border: orange solid 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.nav-links a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 2em;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  align-content: flex-end;
+  margin-right: 40px;
+  text-align: right;
+  /* border: solid 1px black */
+}
+
+.pic-stack {
+  border: pink solid 5px;
+  /* display: flex;
+  flex-direction: row; */
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.tech-stack-div {
+  /* border: 2px green solid; */
+  font-size: medium;
+  text-align: justify;
+  font-family: Modern Sans;
+  display: flex;
+  flex-direction: column;
+  /* margin-left: -15px; */
+  margin-right: 10px;
+}
+
+ul, li {
+  list-style-type: none;
+  margin-right: 15px;
+  margin-left: -15px;
 }

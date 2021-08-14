@@ -3,7 +3,7 @@
   color: #0f0 !important;
   outline: solid #f00 1px !important;
 }  */
-
+/* 
 .header-div {
   background-color: white;
   border: solid 3px red;
@@ -41,7 +41,7 @@ align-items: flex-start;
   height: 450px;
   width: auto;
   /* margin: 10px; */
-}
+/* }
 
 p {
   margin: 10px;
@@ -63,7 +63,7 @@ main {
   border: orange solid 5px;
   display: flex;
   /* align-items: center; */
-  flex-direction: column;
+  /* flex-direction: column;
 }
 
 NavLink {
@@ -72,4 +72,4 @@ NavLink {
   align-items: center;
   justify-content: space-between;
   font-size: 1.15rem;
-}
+}  */

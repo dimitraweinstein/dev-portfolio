@@ -1,9 +1,85 @@
-.laptop {
+/* .laptop {
     width: 620px;
-    height: 100px;
-    background: #9674cb;
-    margin: 0 auto;
+   margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.laptop p {
-    padding-top: 2%;
+
+.header-div {
+  background-color: white;
+  border: solid 3px red;
+  min-height: 10vh;
+  width: 620px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.15rem;
+  color: red;
 }
+
+.bio-pic {
+border: solid 3px yellow;
+height: 650px;
+margin: 10px;
+display: flex;
+align-items: flex-start;
+}
+
+.header-logo {
+  height: 20vh;
+  justify-content: flex-start;
+}
+
+.bio-text {
+  border: solid purple 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dev-logo {
+  border: 8px green solid;
+  height: 450px;
+  width: auto;
+}
+
+p {
+  margin: 10px;
+  font-family: Modern Sans;
+  font-size: 20px;
+  width: 75vh;
+}
+
+main {
+  border: solid 4px blue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 620px;
+}
+
+.p-div {
+  border: orange solid 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+NavLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.15rem;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  border: solid 1px black
+} */

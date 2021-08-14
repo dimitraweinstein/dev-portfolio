@@ -12,11 +12,8 @@ import TheCode from '../src/Components/navComponents/TheCode.js';
 import Resume from '../src/Components/navComponents/Resume.js';
 import SocialMedia from '../src/Components/navComponents/SocialMedia';
 import './App.css';
-import { Mobile } from './Components/mobile/component.jsx';
-// import { TabletMobilePortrait } from './Components/tablet-mobile/component.jsx';
-import { Laptop } from './Components/laptop/component.jsx';
-// import { Desktop } from './Components/desktop/component.jsx';
-// import { BigScreen } from './Components/big-screen/component.jsx';
+import { MobileOrTablet } from './Components/mobile/component.jsx';
+import { LaptopOrDesktop } from './Components/laptop/component.jsx';
 
 const AppRouter = () => {
   return (
@@ -35,39 +32,28 @@ const AppRouter = () => {
 
 export default function App () {
   const isMobileOrTablet = useMediaQuery({
-    maxDeviceWidth: 1224
+    maxDeviceWidth: 1223,
   });
-  //   const isMobileOrTabletPortrait = useMediaQuery({
-  //     maxDeviceWidth: 1224,
-  //     orientation: 'portrait'
-  // });
-  // const isTabletDevice = useMediaQuery({
-  //   minDeviceWidth: 768,
-  //   maxDeviceWidth: 1023
-  // });
+
+  const isPortrait = useMediaQuery({
+    orientation: 'portrait'
+  });
+
   const isDesktopOrLaptop = useMediaQuery({
     minDeviceWidth: 1224
   });
-  // const isDesktop = useMediaQuery({
-  //   minDeviceWidth: 1200,
-  //   maxDeviceWidth: 1823
-  // });
-  // const isBigScreen = useMediaQuery({
-  //   minDeviceWidth: 1824
-  // });
-  // const isPortrait = useMediaQuery({
-  //   query: "(orientation: portrait)"
-  // });
+
+  const isRetina = useMediaQuery({
+    resolution: 2
+  });
 
     return (
       <div >
 
-        {isMobileOrTablet && <Mobile> <AppRouter/> </Mobile>}
-      {/* { isMobileOrTabletPortrait &&  <TabletMobilePortrait> <AppRouter/> </TabletMobilePortrait>} */}
-      {/* { isDesktop && <Desktop> <AppRouter/> </Desktop> } */}
-      { isDesktopOrLaptop && <Laptop> <AppRouter/> </Laptop>}
-        {/* {isBigScreen && <BigScreen> <AppRouter/> </BigScreen>} */}
-        {/* {isPortrait && <Portrait />} */}
+        { isMobileOrTablet && <MobileOrTablet> <AppRouter /> </MobileOrTablet> }
+        { isPortrait }
+        { isDesktopOrLaptop && <LaptopOrDesktop> <AppRouter/> </LaptopOrDesktop> }
+        { isRetina }
         
       </div>
     )
