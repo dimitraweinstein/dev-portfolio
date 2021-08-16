@@ -13,11 +13,6 @@
   width: 420px;
   display: grid;
   grid-template-columns: 50% 50%;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  /* flex-direction: row; */
-  /* align-items: center; */
-  /* justify-content: space-evenly; */
   font-size: .5em;
   color: red;
 }
