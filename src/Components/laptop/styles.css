@@ -1,75 +1,69 @@
-/* .laptop {
-    width: 620px;
+.laptop {
+    width: 1024px;
    margin: 0% auto;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    align-content: center;
 }
 
 .header-div {
   background-color: white;
   border: solid 3px red;
   min-height: 10vh;
-  width: 620px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  font-size: 1.15rem;
-  color: red;
+  width: 1024px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-size: 1rem;
 }
 
 .bio-pic {
 border: solid 3px yellow;
-height: 650px;
+height: auto;
 margin: 10px;
 display: flex;
-align-items: flex-start;
 }
 
 .header-logo {
-  height: 20vh;
+  border: chartreuse solid 3px;
+  max-height: auto;
+  width: 100%;
   justify-content: flex-start;
 }
 
 .bio-text {
   border: solid purple 3px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-}
-
-.dev-logo {
-  border: 8px green solid;
-  height: 450px;
-  width: auto;
 }
 
 p {
   margin: 10px;
   font-family: Modern Sans;
   font-size: 20px;
-  width: 75vh;
+  width: auto;
 }
 
 main {
   border: solid 4px blue;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 620px;
+  width: 1024px;
 }
 
 .p-div {
   border: orange solid 5px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  text-align: justify;
 }
 
-NavLink {
+.nav-links a {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   font-size: 1.15rem;
@@ -77,9 +71,52 @@ NavLink {
 
 .nav-links {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   border: solid 1px black
-} */
+}
+
+
+.pic-stack {
+  border: pink solid 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.tech-stack-div {
+  /* border: 2px green solid; */
+  text-align: justify;
+  font-family: Modern Sans;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.list-title {
+  font-weight: 400;
+  font-size: medium;
+  margin: 0;
+}
+
+ul, li {
+  list-style-type: none;
+  margin-right: 10px;
+  margin-left: -7px;
+}
+
+.list-subtitle {
+  font-weight: 200;
+  font-size: small;
+  margin: 5px;
+  margin-left: -5px;
+}
+
+li {
+  font-size: small;
+}
+

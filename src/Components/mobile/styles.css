@@ -8,18 +8,12 @@
 
 .header-div {
   background-color: white;
-  border: solid 3px red;
+  /* border: solid 3px red; */
   min-height: 10vh;
   width: 420px;
   display: grid;
   grid-template-columns: 50% 50%;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  /* flex-direction: row; */
-  /* align-items: center; */
-  /* justify-content: space-evenly; */
   font-size: .5em;
-  color: red;
 }
 
 .bio-pic {
@@ -27,19 +21,20 @@
 height: 220px;
 width: 175px;
 margin: 5px;
-margin-top: 30px;
+margin-top: 40px;
+margin-left: 15px;
 display: flex;
 }
 
 .header-logo {
   /* border: solid chartreuse 3px; */
-  max-height: 30vh;
+  max-height: auto;
   width: 100%;
   justify-content: flex-start;
 }
 
 .bio-text {
-  border: solid purple 5px;
+  /* border: solid purple 5px; */
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -62,7 +57,7 @@ main {
 }
 
 .p-div {
-  border: orange solid 5px;
+  /* border: orange solid 5px; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -76,6 +71,8 @@ main {
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 2em;
+  text-decoration: none;
+  line-height: 1.1rem;
 }
 
 .nav-links {
@@ -85,8 +82,7 @@ main {
   align-items: baseline;
   justify-content: space-between;
   align-content: flex-end;
-  margin-right: 40px;
-  text-align: right;
+  margin-right: 42px;
   /* border: solid 1px black */
 }
 
@@ -100,17 +96,32 @@ main {
 
 .tech-stack-div {
   /* border: 2px green solid; */
-  font-size: medium;
   text-align: justify;
   font-family: Modern Sans;
   display: flex;
   flex-direction: column;
-  /* margin-left: -15px; */
   margin-right: 10px;
+}
+
+.list-title {
+  font-weight: 400;
+  font-size: medium;
+  margin: 0;
 }
 
 ul, li {
   list-style-type: none;
-  margin-right: 15px;
-  margin-left: -15px;
+  margin-right: 10px;
+  margin-left: -7px;
+}
+
+.list-subtitle {
+  font-weight: 200;
+  font-size: small;
+  margin: 5px;
+  margin-left: -5px;
+}
+
+li {
+  font-size: small;
 }
