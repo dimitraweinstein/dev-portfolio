@@ -28,7 +28,7 @@ display: flex;
 
 .header-logo {
   /* border: solid chartreuse 3px; */
-  max-height: 30vh;
+  max-height: auto;
   width: 100%;
   justify-content: flex-start;
 }
