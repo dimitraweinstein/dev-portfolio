@@ -43,9 +43,9 @@ export default function App () {
     orientation: 'landscape'
   });
 
-  const isDesktopOrLaptop = useMediaQuery({
-    minDeviceWidth: 1224
-  });
+  // const isDesktopOrLaptop = useMediaQuery({
+  //   minDeviceWidth: 1224
+  // });
 
   const isRetina = useMediaQuery({
     resolution: 2
@@ -54,10 +54,10 @@ export default function App () {
     return (
       <div >
 
-        { isMobileOrTablet && <MobileOrTablet> <AppRouter /> </MobileOrTablet> }
-        { isPortrait ?? isLandscape }
-        { isDesktopOrLaptop && <LaptopOrDesktop> <AppRouter/> </LaptopOrDesktop> }
+        { isMobileOrTablet ? <MobileOrTablet> <AppRouter /> </MobileOrTablet> : <LaptopOrDesktop> <AppRouter/> </LaptopOrDesktop> }
+        {/* { isDesktopOrLaptop && <LaptopOrDesktop> <AppRouter/> </LaptopOrDesktop> } */}
         { isRetina }
+        {isPortrait ?? isLandscape}
         
       </div>
     )
