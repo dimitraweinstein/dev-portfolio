@@ -1,59 +1,60 @@
-.laptop {
-    width: 1024px;
+
+  .laptop {
+    width: 620px;
    margin: 0% auto;
     display: flex;
     flex-direction: row;
     align-content: center;
 }
 
-.header-div {
+.laptop .header-div {
   background-color: white;
   border: solid 3px red;
   min-height: 10vh;
-  width: 1024px;
+  width: 620px;
   display: grid;
   grid-template-columns: 50% 50%;
   font-size: 1rem;
 }
 
-.bio-pic {
+.laptop .bio-pic {
 border: solid 3px yellow;
 height: auto;
 margin: 10px;
 display: flex;
 }
 
-.header-logo {
+.laptop .header-logo {
   border: chartreuse solid 3px;
   max-height: auto;
   width: 100%;
   justify-content: flex-start;
 }
 
-.bio-text {
+.laptop .bio-text {
   border: solid purple 3px;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-p {
+.laptop p {
   margin: 10px;
   font-family: Modern Sans;
   font-size: 20px;
   width: auto;
 }
 
-main {
+.laptop main {
   border: solid 4px blue;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 1024px;
+  width: 620px;
 }
 
-.p-div {
+.laptop .p-div {
   border: orange solid 5px;
   display: flex;
   flex-direction: column;
@@ -61,7 +62,7 @@ main {
   text-align: justify;
 }
 
-.nav-links a {
+.laptop .nav-links a {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,7 +70,7 @@ main {
   font-size: 1.15rem;
 }
 
-.nav-links {
+.laptop .nav-links {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -79,7 +80,7 @@ main {
 }
 
 
-.pic-stack {
+.laptop .pic-stack {
   border: pink solid 5px;
   width: 100%;
   display: flex;
@@ -88,8 +89,8 @@ main {
   grid-template-columns: 50% 50%;
 }
 
-.tech-stack-div {
-  /* border: 2px green solid; */
+.laptop .tech-stack-div {
+  border: 2px green solid;
   text-align: justify;
   font-family: Modern Sans;
   display: flex;
@@ -97,26 +98,29 @@ main {
   margin-right: 10px;
 }
 
-.list-title {
+.laptop .list-title {
   font-weight: 400;
   font-size: medium;
   margin: 0;
 }
 
-ul, li {
+.laptop ul, .laptop  li {
   list-style-type: none;
   margin-right: 10px;
   margin-left: -7px;
 }
 
-.list-subtitle {
+.laptop .list-subtitle {
   font-weight: 200;
   font-size: small;
   margin: 5px;
   margin-left: -5px;
 }
 
-li {
+.laptop li {
   font-size: small;
 }
+
+
+
 
