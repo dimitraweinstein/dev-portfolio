@@ -5,7 +5,7 @@ import headerDevLogo from '../../src/images/Dev Logo 5_header.png';
 export default class Header extends Component {
     render() {
         return (
-            <div className = 'header-div'>
+            <div className='header-div'>
                 <Route>
                     <img className="header-logo" alt="header logo" src={headerDevLogo} />
                     <div className="nav-links">
@@ -19,4 +19,4 @@ export default class Header extends Component {
             </div>
         )
     }
- }
+}
