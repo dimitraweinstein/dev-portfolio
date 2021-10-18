@@ -1,0 +1,135 @@
+/* @media screen and (max-width: 1223) { */
+  
+.mobile {
+  width: 420px;
+  height: auto;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.mobile .header-div {
+  /* border: solid 3px red; */
+  min-height: 3vh;
+  /* box-sizing: content-box; */
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex: 50%;
+}
+
+.mobile .header-logo {
+  /* border: solid chartreuse 3px; */
+  width: 35vw;
+  margin-left: 1vw;
+}
+
+.mobile .nav-links a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: .85em;
+  text-decoration: none;
+  line-height: 2.5em;
+}
+
+.mobile .nav-links {
+  /* border: solid 1px black; */
+  box-sizing: content-box;
+  width: 60vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  /* resize: none; */
+}
+
+.mobile .bio-pic {
+/* border: solid 3px yellow; */
+height: 20vh;
+width: auto;
+margin-top: 1vh;
+margin-left: 2vw;
+margin-right: 2vw;
+}
+
+.mobile .pic-stack {
+  /* border: pink solid 5px; */
+  box-sizing: content-box;
+  width: auto;
+  height: 22vh;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  padding: 1%;
+}
+
+.mobile .tech-stack-div {
+  /* border: 2px green solid; */
+  box-sizing: content-box;
+  width: 70vw;
+  /* text-align: justify; */
+  font-family: Modern Sans;
+  display: flex;
+  flex: 50%;
+  column-count: 2 auto;
+  flex-direction: row;
+  justify-content: center;
+  height: 22vh;
+  /* margin: 0; */
+}
+
+.mobile .tech-column-1, .tech-column-2 {
+  /* border: solid 2px orange; */
+  display: flex;
+  flex-direction: column;
+  box-sizing: content-box;
+  padding: 1%;
+  /* resize: none; */
+  width: 35vw;
+  height: auto;
+  align-items: center;
+}
+
+.mobile h5 {
+  /* border: solid 1px black; */
+  margin: 0;
+  font-size: 1.25em;
+  line-height: 1.15em;
+}
+
+.mobile main {
+  /* border: solid 3px blue; */
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.mobile .bio-text {
+  /* border: orange solid 3px; */
+  height: 57vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.mobile p {
+  margin: 2.5vw;
+  width: auto;
+  font-family: Modern Sans;
+  font-size: 1.25rem;
+  text-align: justify;
+  line-height: 1.5rem;
+  word-spacing: -.5rem;
+}
+
+
+
+

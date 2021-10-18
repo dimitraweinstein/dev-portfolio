@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+import './mobile.css';
 
 export const MobileOrTablet = (props) => {
     return (
