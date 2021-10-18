@@ -1,7 +1,8 @@
 
   .laptop {
     width: auto;
-    margin: 0% auto;
+    height: auto;
+    margin: 0%;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -12,17 +13,11 @@
   background-color: white;
   display: flex;
   flex-direction: row;
-  min-height: 15vh;
+  min-height: 10vh;
   /* width: 100vw; */
   /* display: grid; */
   /* grid-template-columns: 50% 50%; */
   font-size: 1rem;
-}
-
-.laptop .bio-pic {
-/* border: solid 3px yellow; */
-height: 40vh;
-margin: auto;
 }
 
 .laptop .header-logo {
@@ -35,43 +30,12 @@ margin: auto;
   /* justify-content: flex-start; */
 }
 
-.laptop .bio-text {
-  /* border: solid purple 3px; */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.laptop p {
-  margin: 10px;
-  font-family: Modern Sans;
-  font-size: 1.75rem;
-  width: auto;
-}
-
-.laptop main {
-  /* border: solid 4px blue; */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  width: auto;
-  /* margin-top: 50px; */
-}
-
-.laptop .p-div {
-  border: orange solid 5px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  text-align: justify;
-}
-
 .laptop .nav-links a {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  font-size: 2em;
+  font-size: 1.75em;
   text-decoration: none;
 }
 
@@ -87,18 +51,26 @@ margin: auto;
   margin: auto;
 }
 
+.laptop .bio-pic {
+/* border: solid 3px yellow; */
+height: 35vh;
+width: auto;
+margin-top: 2.5vh;
+margin-left: 4vh;
+}
+
 .laptop .pic-stack {
-  border: pink solid 5px;
-  width: 100vw;
+  /* border: pink solid 5px; */
+  box-sizing: content-box;
+  width: auto;
+  height: 45vh;
   display: flex;
   flex-direction: row;
-  columns: 3 auto;
-  justify-content: space-between;
-  margin: auto;
+  align-content: center;
 }
 
 .laptop .tech-stack-div {
-  border: 2px green solid;
+  /* border: 2px green solid; */
   text-align: justify;
   font-family: Modern Sans;
   display: flex;
@@ -106,39 +78,55 @@ margin: auto;
   /* flex-wrap: wrap; */
   /* place-content: end space-between; */
   width: 80vw;
-  columns: 2 10px;
+  height: 40vh;
   /* margin: auto; */
 }
 
-.laptop .list-title {
-  font-weight: 400;
-  font-size: 3rem;
-  /* margin: 0; */
+.laptop .tech-column-1, .tech-column-2 {
+  /* border: solid 2px orange; */
+  display: flex;
+  flex-direction: row;
+  box-sizing: content-box;
+  padding: 1%;
+  /* margin-top: 3.5vh; */
+  width: 35vw;
+  /* height: 25vh; */
+  align-items: center;
+  justify-content: center;
 }
 
-.laptop ul, .laptop  li {
-  list-style-type: none;
-  /* place-content: end space-between; */
-  /* margin-right: 10px; */
-  /* margin-left: -7px; */
+.laptop h5 {
+  /* border: solid 1px black; */
+  margin: auto;
+  font-size: 1.5em;
+  line-height: 1.25em;
 }
 
-.laptop .list-subtitle {
-  font-weight: 200;
-  font-size: 2rem;
-  /* margin: 5px; */
-  /* margin-left: -5px; */
+.laptop main {
+  /* border: solid 4px blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
 }
 
-.laptop li {
+.laptop .bio-text {
+  /* border: solid purple 3px; */
+  height: 30vh;
+  margin-top: -7vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.laptop p {
+  margin: 1.5vw;
+  width: auto;
+  font-family: Modern Sans;
   font-size: 1.5rem;
+  text-align: justify;
+  line-height: 1.5rem;
+  word-spacing: -.4rem;
 }
-
-#tools, #dev-practices {
-  /* border: solid black 2px; */
-  /* width: auto; */
-  /* align-content: flex-end; */
-  /* float: left 40px; */
-}
-
-
