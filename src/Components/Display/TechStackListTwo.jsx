@@ -2,33 +2,14 @@ import React from 'react';
 
 const TechStackListTwo = () => (
   <>
-    <ul>
-      <ul>
-        <li>
-          <p
-            className="list-subtitle"
-            id="tools-titles">Tools:
-          </p>
-        </li>
-          <ul id="tools">
-              <li> Heroku </li>
-              <li> Git </li>
-              <li> GitHub </li>
-              <li> Netlify </li>
-              <li> Postman </li>
-          </ul>
-        <li>
-          <p
-            className="list-subtitle"
-            id="tools-titles"
-          >
-            Dev Practices:</p>
-        </li>
-          <ul id="dev-practices">
-              <li>TDD</li>
-          </ul>
-      </ul>
-    </ul> 
+    <section className="stack-list-right">
+        <h5> Heroku </h5>
+        <h5> Git </h5>
+        <h5> GitHub </h5>
+        <h5> Netlify </h5>
+        <h5> Postman </h5>
+        <h5>TDD</h5>
+    </section>
   </>
 );
 
