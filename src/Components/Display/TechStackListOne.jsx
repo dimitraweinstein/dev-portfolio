@@ -2,26 +2,18 @@ import React from 'react';
 
 const TechStackListOne = () => (
   <>
-    <ul>
-      <p className="list-title">Tech Stack:</p>
-      <ul>
-          <li> <p className="list-subtitle">Languages:</p> </li>
-              <ul>
-          <li> JavaScript </li>
-          <li> HTML/CSS </li>
-              </ul>
-          <li> <p className="list-subtitle">Frameworks/Libraries:</p> </li>
-              <ul>
-          <li> Reactjs </li>
-          <li> Node </li>
-          <li> Express </li>
-              </ul>
-          <li> <p className="list-subtitle">Databases:</p> </li>
-              <ul>
-                  <li> PostgreSQL </li>
-              </ul>
-          </ul>
-      </ul>
+    {/* <section>
+      <h5 className="stack-title">
+        Tech Stack:</h5>
+    </section> */}
+    <section className="stack-list-left">
+      <h5> JavaScript </h5>
+      <h5> HTML/CSS </h5>
+      <h5> Reactjs </h5>
+      <h5> Node </h5>
+      <h5> Express </h5>
+      <h5> PostgreSQL </h5>
+    </section>
     </>
 );
 
