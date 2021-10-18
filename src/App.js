@@ -17,18 +17,18 @@ import { LaptopOrDesktop } from './Components/laptop/component.jsx';
 
 const AppRouter = () => {
   return (
-     <Router>
-          <Header />
-          <Switch>
-            <Route path="/" exact component = { Home } />
-            <Route path="/connect" exact component={ ConnectWithMe } />
-            <Route path="/thecode" exact component={TheCode} />
-            <Route path="/resume" exact component={Resume} />
-            <Route path="/socialmedia" exact component={ SocialMedia } />
-          </Switch>
-        </Router>
+  <Router>
+    <Header />
+      <Switch>
+        <Route path="/" exact component = { Home } />
+        <Route path="/connect" exact component={ ConnectWithMe } />
+        <Route path="/thecode" exact component={TheCode} />
+        <Route path="/resume" exact component={Resume} />
+        <Route path="/socialmedia" exact component={ SocialMedia } />
+      </Switch>
+  </Router>
   )
- }
+}
 
 export default function App () {
   const isMobileOrTablet = useMediaQuery({
@@ -36,10 +36,10 @@ export default function App () {
   });
 
   const isPortrait = useMediaQuery({
-    orientation: 'portrait'
+    orientation: 'portrait' 
   });
 
-   const isLandscape = useMediaQuery({
+  const isLandscape = useMediaQuery({
     orientation: 'landscape'
   });
 
@@ -55,7 +55,6 @@ export default function App () {
       <div >
 
         { isMobileOrTablet ? <MobileOrTablet> <AppRouter /> </MobileOrTablet> : <LaptopOrDesktop> <AppRouter/> </LaptopOrDesktop> }
-        {/* { isDesktopOrLaptop && <LaptopOrDesktop> <AppRouter/> </LaptopOrDesktop> } */}
         { isRetina }
         {isPortrait ?? isLandscape}
         
