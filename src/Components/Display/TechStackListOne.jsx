@@ -3,12 +3,18 @@ import React from 'react';
 const TechStackListOne = () => (
   <>
     <section className="stack-list-left">
-      <h5> JavaScript </h5>
-      <h5> HTML/CSS </h5>
-      <h5> Reactjs </h5>
-      <h5> Node </h5>
-      <h5> Express </h5>
-      <h5> PostgreSQL </h5>
+      <p> JavaScript </p>
+      <p> HTML/CSS </p>
+      <p> Reactjs </p>
+      <p> Node </p>
+      <p> Express </p>
+      <p> PostgreSQL </p>
+      <p> Heroku </p>
+      <p> Git </p>
+      <p> GitHub </p>
+      <p> Netlify </p>
+      <p> Postman </p>
+      <p>TDD</p>
     </section>
   </>
 );

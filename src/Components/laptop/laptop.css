@@ -48,12 +48,13 @@
   height: 10vh;
   align-items: center;
   justify-content: space-around;
-  margin: auto;
+  margin-top: 8vh;
+  margin-right: 30vw;
 }
 
 .laptop .bio-pic {
 /* border: solid 3px yellow; */
-height: 35vh;
+height: 30vh;
 width: auto;
 margin-top: 2.5vh;
 margin-left: 4vh;
@@ -79,7 +80,6 @@ margin-left: 4vh;
   /* place-content: end space-between; */
   width: 80vw;
   height: 40vh;
-  /* margin: auto; */
 }
 
 .laptop .tech-column-1, .tech-column-2 {
@@ -87,19 +87,21 @@ margin-left: 4vh;
   display: flex;
   flex-direction: row;
   box-sizing: content-box;
-  padding: 1%;
+  /* padding: 1%; */
   /* margin-top: 3.5vh; */
   width: 35vw;
   /* height: 25vh; */
   align-items: center;
   justify-content: center;
+  margin-bottom: 8vh;
+  margin-left: -10vw;
 }
 
-.laptop h5 {
+.laptop .stack-list-left p {
   /* border: solid 1px black; */
   margin: auto;
-  font-size: 1.5em;
-  line-height: 1.25em;
+  font-size: 1.25em;
+  /* line-height: 1.25em; */
 }
 
 .laptop main {
@@ -113,10 +115,13 @@ margin-left: 4vh;
 
 .laptop .bio-text {
   /* border: solid purple 3px; */
-  height: 30vh;
-  margin-top: -7vh;
+  height: 25vh;
+  margin-top: -10vh;
+  margin-left: 5vw;
+  margin-right: 30vw;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }

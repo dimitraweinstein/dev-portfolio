@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import TechStackListOne from '../Display/TechStackListOne';
-import TechStackListTwo from '../Display/TechStackListTwo';
+// import TechStackListTwo from '../Display/TechStackListTwo';
 import profileImage from '../../images/Profile_Image.jpeg';
 // import devLogo from '../../images/Dev Logo 5.png';
 
@@ -15,9 +15,9 @@ export default class Home extends Component {
                             <div className="tech-column-1">
                                 <TechStackListOne />
                                 </div>
-                            <div className="tech-column-2">
+                            {/* <div className="tech-column-2">
                                 <TechStackListTwo />
-                                </div>
+                                </div> */}
                         </div>
                     </div>
                     <div className="bio-text">
