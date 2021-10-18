@@ -10,7 +10,8 @@ export default class Home extends Component {
                     <div className="pic-stack">
                         <img className="bio-pic" alt="profile" src={profileImage} />
                         <div className="tech-stack-div">
-                            <ul>
+                            <div className="tech-column-1">
+                                {/* <ul>
                                 <p className="list-title">Tech Stack:</p>
                                     <ul>
                                         <li> <p className="list-subtitle">Languages:</p> </li>
@@ -28,10 +29,16 @@ export default class Home extends Component {
                                             <ul>
                                                 <li> PostgreSQL </li>
                                             </ul>
-                                    <li>
+                                        </ul>
+                                    </ul> */}
+                                </div>
+                            <div className="tech-column-2">
+                                {/* <ul>
+                                    <ul>
+                                <li>
                                         <p
                                             className="list-subtitle"
-                                            id="tools">Tools:
+                                            id="tools-titles">Tools:
                                     </p>
                                     </li>
                                             <ul id="tools">
@@ -44,7 +51,7 @@ export default class Home extends Component {
                                     <li>
                                         <p
                                             className="list-subtitle"
-                                            id="dev-practices"
+                                            id="tools-titles"
                                         >
                                             Dev Practices:</p>
                                     </li>
@@ -52,7 +59,8 @@ export default class Home extends Component {
                                                 <li>TDD</li>
                                             </ul>
                                     </ul>
-                            </ul>
+                            </ul>  */}
+                                </div>
                         </div>
                     </div>
                     <div className="bio-text">

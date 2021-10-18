@@ -135,7 +135,7 @@ margin: auto;
 }
 
 #tools, #dev-practices {
-  border: solid black 2px;
+  /* border: solid black 2px; */
   /* width: auto; */
   /* align-content: flex-end; */
   /* float: left 40px; */
