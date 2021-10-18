@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TechStackListOne from '../Display/TechStackListOne';
 import profileImage from '../../images/Profile_Image.jpeg';
 // import devLogo from '../../images/Dev Logo 5.png';
 
@@ -11,26 +12,7 @@ export default class Home extends Component {
                         <img className="bio-pic" alt="profile" src={profileImage} />
                         <div className="tech-stack-div">
                             <div className="tech-column-1">
-                                {/* <ul>
-                                <p className="list-title">Tech Stack:</p>
-                                    <ul>
-                                        <li> <p className="list-subtitle">Languages:</p> </li>
-                                            <ul>
-                                        <li> JavaScript </li>
-                                        <li> HTML/CSS </li>
-                                            </ul>
-                                        <li> <p className="list-subtitle">Frameworks/Libraries:</p> </li>
-                                            <ul>
-                                        <li> Reactjs </li>
-                                        <li> Node </li>
-                                        <li> Express </li>
-                                            </ul>
-                                        <li> <p className="list-subtitle">Databases:</p> </li>
-                                            <ul>
-                                                <li> PostgreSQL </li>
-                                            </ul>
-                                        </ul>
-                                    </ul> */}
+                                <TechStackListOne />
                                 </div>
                             <div className="tech-column-2">
                                 {/* <ul>
